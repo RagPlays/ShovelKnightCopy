@@ -1,0 +1,15 @@
+music intromusic Audio/SoundStreams/introMusic.wav
+music loopmusic Audio/SoundStreams/loopMusic.wav
+music menumusic Audio/SoundStreams/menuMusic.mp3
+soundEff checkpoint Audio/SoundEffects/checkPoint.wav
+soundEff jump Audio/SoundEffects/jump.wav
+soundEff fall Audio/SoundEffects/fall.wav
+soundEff attack Audio/SoundEffects/attack.wav
+soundEff gem Audio/SoundEffects/gem.wav
+soundEff redgem Audio/SoundEffects/redGem.wav
+soundEff greygem Audio/SoundEffects/greyGem.wav
+soundEff gethit Audio/SoundEffects/getHit.wav
+soundEff platter Audio/SoundEffects/platter.wav
+soundEff chickenpickup Audio/SoundEffects/chicken.wav
+soundEff rockbreak Audio/SoundEffects/rockAttack.wav
+soundEff rockjumpbreak Audio/SoundEffects/rockJumpAttack.wav

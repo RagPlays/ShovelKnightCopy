@@ -1,0 +1,34 @@
+VT selectTextures Textures/Menus/selectButton 2
+VT buttons Textures/Fonts/ButtonTextures/button 20
+VT numbers Textures/Fonts/NumberTextures/numberTexture 10
+T titleScreen Textures/Menus/titleScreen.png
+T menuButtons Textures/Menus/buttons.png
+T selectShovel Textures/Menus/shovel.png
+T optionsScreen Textures/Menus/defaultOptionsMenu.png
+T pauseMenu Textures/Menus/defaultPauseMenu.png
+T slider Textures/Menus/sliderTexture.png
+T audioMenu Textures/Menus/defaultAudioMenu.png
+T HUD Textures/Game/HUD/HUDMain.png
+T playerHP Textures/Game/HUD/playerHpTexture.png
+T bossHP Textures/Game/HUD/bossHpTexture.png
+T tilemapLevel1 Textures/Game/Map/Level1/tileMap.png
+T backLevel1 Textures/Game/Map/Level1/backGround.png
+T player Textures/Game/Entities/player.png
+T gems Textures/Game/Objects/gems.png
+T bubble Textures/Game/Objects/bubble.png
+T dirtPile Textures/Game/Objects/dirtPile.png
+T checkPoint Textures/Game/Objects/checkPoint.png
+T platform Textures/Game/Objects/platform.png
+T smallRock Textures/Game/Objects/smallRock.png
+T bigRock Textures/Game/Objects/bigRock.png
+T smallRockBreak Textures/Game/Objects/smallRockBreak.png
+T bigRockBreak Textures/Game/Objects/bigRockBreak.png
+T platter Textures/Game/Objects/idlePlatter.png
+T platterBreak Textures/Game/Objects/breakPlatter.png
+T chicken Textures/Game/Objects/chicken.png
+T poef Textures/Game/Effects/poofs.png
+T beeto Textures/Game/Entities/beeto.png
+T blorp Textures/Game/Entities/blorp.png
+T dozeDragon Textures/Game/Entities/dozeDragon.png
+T smallExplosion Textures/Game/Effects/explosionSmall.png
+T bigExplosion Textures/Game/Effects/explosionBig.png

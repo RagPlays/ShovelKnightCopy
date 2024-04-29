@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a724a55e-4b41-4530-8267-5a73838cb7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Basics">
+      <UniqueIdentifier>{1ca2288a-2eea-4f34-9400-61ddb5c69b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Basics\Game Files">
+      <UniqueIdentifier>{f7bf2896-94d1-4901-8882-f250936f981d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GUI">
+      <UniqueIdentifier>{f4f0a9e2-b716-4f39-a8e4-29313bb8d03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States">
+      <UniqueIdentifier>{2ae40443-aff7-4a4f-9a0a-5f027700e8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States\Base Class">
+      <UniqueIdentifier>{4d7c1f8b-a600-4a45-bf35-4fa32891751a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TileMap">
+      <UniqueIdentifier>{ff45dbc3-62c5-4009-8ddb-2840c16590eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States\main Game States">
+      <UniqueIdentifier>{64185346-3d20-4146-8eb8-e0ef2ea06edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Camera">
+      <UniqueIdentifier>{5f2a87ab-227b-47a6-bc6d-99df613addab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities">
+      <UniqueIdentifier>{b03fd73b-1f0d-409c-ba68-53fa0c88187b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities\Player">
+      <UniqueIdentifier>{59054077-52f4-4155-9e98-5dd17d373086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Animation">
+      <UniqueIdentifier>{b79e0ae9-88ad-46ff-bf94-d64d99b7b622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{d10e494b-00fa-4d69-99f9-00aeda00b088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Basics\Precompiler">
+      <UniqueIdentifier>{558bc66e-092f-4eff-9cdf-948ae57c7c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities\Enemies">
+      <UniqueIdentifier>{2042189f-3ae9-44d4-aa8c-42c03f9b11ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities\Enemies\BaseClass">
+      <UniqueIdentifier>{76451e6d-48ad-42a3-bfe8-4d6873384ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities\Enemies\Manager">
+      <UniqueIdentifier>{661a3994-e2f8-4085-8b5f-264d614af649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects">
+      <UniqueIdentifier>{87219157-cf98-4ed8-a4b9-0c1a62099ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Other">
+      <UniqueIdentifier>{a4fe6379-129f-4a97-bd52-019f060b71cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Managers">
+      <UniqueIdentifier>{085065f4-91bc-4d41-96b0-fa7f5dec88b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GeneralManagers">
+      <UniqueIdentifier>{cf1f987b-8bda-46d1-a39c-748f4558867e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities\Enemies\MiniBosses">
+      <UniqueIdentifier>{ce50ed05-988d-4e20-bdcb-bb2575e23d4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Game\Basics\Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game\Basics\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game\Basics\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Game\States\Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Game\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Game\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorState.cpp">
+      <Filter>Game\States\main Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Game\States\main Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenuState.cpp">
+      <Filter>Game\States\main Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureSelector.cpp">
+      <Filter>Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Game\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Entities\Enemies\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Game\Entities\Enemies\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Beeto.cpp">
+      <Filter>Game\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Blorp.cpp">
+      <Filter>Game\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHUD.cpp">
+      <Filter>Game\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>Game\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Game\GameObjects\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtPile.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GemsManager.cpp">
+      <Filter>Game\GameObjects\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPoint.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Platter.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Game\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsMenu.cpp">
+      <Filter>Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMenu.cpp">
+      <Filter>Game\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game\GeneralManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game\GeneralManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="DozeDragon.cpp">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClCompile>
+    <ClCompile Include="DozeDragonBubble.cpp">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClCompile>
+    <ClCompile Include="DozeDragonBubbles.cpp">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonExplosion.cpp">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Game\Basics\Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game\Basics\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Game\States\Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Game\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Game\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorState.h">
+      <Filter>Game\States\main Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Game\States\main Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenuState.h">
+      <Filter>Game\States\main Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureSelector.h">
+      <Filter>Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Game\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Entities\Enemies\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Game\Entities\Enemies\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Beeto.h">
+      <Filter>Game\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Blorp.h">
+      <Filter>Game\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHUD.h">
+      <Filter>Game\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>Game\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Game\GameObjects\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtPile.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GemsManager.h">
+      <Filter>Game\GameObjects\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPoint.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Platter.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Game\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsMenu.h">
+      <Filter>Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMenu.h">
+      <Filter>Game\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game\GeneralManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game\GeneralManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="DozeDragon.h">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="DozeDragonBubble.h">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="DozeDragonBubbles.h">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonExplosion.h">
+      <Filter>Game\Entities\Enemies\MiniBosses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
